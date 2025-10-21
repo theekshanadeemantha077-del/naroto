@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BE NAROTO | Products</title>
+<style>
+body { font-family:Poppins,sans-serif; background:#f9f9f9; margin:0; padding:0; text-align:center; }
+header { background:linear-gradient(90deg,#ff3333,#ff9900); color:white; padding:25px; }
+header h1 { margin:0; }
+.products { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px; padding:20px; }
+.card { background:white; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.1); overflow:hidden; transition:0.3s; }
+.card:hover { transform:translateY(-5px); }
+.card img { width:100%; height:180px; object-fit:cover; }
+.card h3 { color:#ff3333; margin:10px 0 5px; }
+.price { color:#ff9900; font-weight:bold; margin-bottom:10px; }
+.btn { background:linear-gradient(90deg,#ff3333,#ff9900); color:white; border:none; padding:10px 25px; border-radius:25px; cursor:pointer; margin-bottom:15px; display:inline-block; text-decoration:none; }
+.btn:hover { transform:scale(1.05); }
+footer { background:#222; color:white; padding:15px 0; margin-top:40px; font-size:0.9em; }
+</style>
+</head>
+<body>
+
+<header>
+<h1>BE NAROTO</h1>
+<p>Delivering Quality — Only in Sri Lanka 🇱🇰</p>
+</header>
+
+<section class="products">
+<div class="card">
+<img src="product1.jpg" alt="Product 1">
+<h3>Product 01</h3>
+<p class="price">Rs. 2500</p>
+<a href="payment.html?product=Product+01&price=2500" class="btn">Buy Now</a>
+</div>
+
+<div class="card">
+<img src="product2.jpg" alt="Product 2">
+<h3>Product 02</h3>
+<p class="price">Rs. 1800</p>
+<a href="payment.html?product=Product+02&price=1800" class="btn">Buy Now</a>
+</div>
+
+<div class="card">
+<img src="product3.jpg" alt="Product 3">
+<h3>Product 03</h3>
+<p class="price">Rs. 3200</p>
+<a href="payment.html?product=Product+03&price=3200" class="btn">Buy Now</a>
+</div>
+</section>
+
+<footer>
+<p>© 2025 BE NAROTO — All Rights Reserved | Only in Sri Lanka 🇱🇰</p>
+</footer>
+
+</body>
+</html>
